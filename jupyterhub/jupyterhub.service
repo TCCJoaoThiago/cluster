@@ -1,0 +1,28 @@
+[Unit]
+
+Description=JupyterHub
+After=syslog.target network.target
+
+[Service]
+
+User=root
+Environment="PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/pasta/home/python/bin:/pasta/home/bin:/pasta/home/spark/spark/bin:/pasta/home/spark/spark/sbin:/pasta/home/spark/spark/bin:/pasta/home/spark/spark/sbin:/pasta/home/kafka/kafka/bin:/pasta/home/hadoop/hadoop/bin:/pasta/home/hadoop/hadoop/sbin:/pasta/home/python/bin"
+Environment="PYTHONPATH=/pasta/home/python"
+Environment="JAVA_HOME=/pasta/home/java/jdk1.8.0_361"
+
+Environment="SPARK_HOME=/pasta/home/spark/spark"
+Environment="HADOOP_HOME=/pasta/home/hadoop/hadoop"
+Environment="HADOOP_BIN_HOME=/pasta/home/hadoop/hadoop"
+Environment="HADOOP_CONF_DIR=/pasta/home/hadoop/hadoop-zeus/etc/hadoop"
+Environment="HADOOP_COMMON_HOME=/pasta/home/hadoop/hadoop"
+Environment="HADOOP_LIBEXEC_DIR=/pasta/home/hadoop/hadoop/libexec"
+Environment="HADOOP_HDFS_HOME=/pasta/home/hadoop/hadoop"
+Environment="HADOOP_MAPRED_HOME=/pasta/home/hadoop/hadoop"
+Environment="HADOOP_YARN_HOME=/pasta/home/hadoop/hadoop"
+Environment="HADOOP_COMMON_LIB_NATIVE_DIR=/pasta/home/hadoop/hadoop/lib/native"
+Environment="HADOOP_CLASSPATH=/pasta/home/java/jdk1.8.0_361/lib/tools.jar"
+
+ExecStart=jupyterhub -f /pasta/home/jupyterhub/jupyterhub_config.py
+
+[Install]
+WantedBy=multi-user.target
