@@ -1,0 +1,31 @@
+export CLUSTER_HOME=/pasta/home
+
+export PYTHONPATH=$PYTHONPATH:$CLUSTER_HOME/python
+export JAVA_HOME=/pasta/home/java/jdk1.8.0_361
+
+export HADOOP_BIN_HOME=$CLUSTER_HOME/hadoop/hadoop
+export HADOOP_HOME=$CLUSTER_HOME/hadoop/hadoop-$(hostname)
+export HADOOP_CONF_DIR=$HADOOP_HOME/etc/hadoop
+export HADOOP_COMMON_HOME=$HADOOP_BIN_HOME
+export HADOOP_LIBEXEC_DIR=$HADOOP_COMMON_HOME/libexec
+export HADOOP_HDFS_HOME=$HADOOP_COMMON_HOME
+export HADOOP_MAPRED_HOME=$HADOOP_COMMON_HOME
+export HADOOP_YARN_HOME=$HADOOP_COMMON_HOME
+export HADOOP_COMMON_LIB_NATIVE_DIR=$HADOOP_COMMON_HOME/lib/native
+export HADOOP_OPTS="$HADOOP_OPTS -Djava.library.path=$HADOOP_COMMON_HOME/lib/native"
+export HADOOP_CLASSPATH=${JAVA_HOME}/lib/tools.jar
+
+export SPARK_BIN_HOME=$CLUSTER_HOME/spark/spark
+export SPARK_HOME=$SPARK_BIN_HOME
+export SPARK_CONF_DIR=$CLUSTER_HOME/spark/spark-$(hostname)/conf
+export SPARK_LOG_DIR=$CLUSTER_HOME/spark/spark-$(hostname)/logs
+
+export KAFKA_BIN_HOME=$CLUSTER_HOME/kafka/kafka
+export KAFKA_HOME=$KAFKA_BIN_HOME
+
+export KIBANA_HOST=http://maquina_exemplo:5601
+export ELASTICSEARCH_HOST=maquina_exemplo:9200
+
+export PATH=$PATH:$JAVA_HOME/bin:$CLUSTER_HOME/python/bin:$CLUSTER_HOME/bin:$SPARK_HOME/bin:$SPARK_HOME/sbin:$SPARK_HOME/bin:$SPARK_HOME/sbin:$KAFKA_HOME/bin:$HADOOP_COMMON_HOME/bin:$HADOOP_COMMON_HOME/sbin:$CLUSTER_HOME/python/bin
+
+alias dfs="hdfs dfs"
