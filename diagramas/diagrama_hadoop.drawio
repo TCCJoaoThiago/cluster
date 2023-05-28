@@ -1,0 +1,199 @@
+<mxfile host="app.diagrams.net" modified="2023-05-28T18:13:15.886Z" agent="Mozilla/5.0 (X11; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/113.0" etag="zCw_P90g6VO9Iv3QwaQv" version="21.2.3" type="device">
+  <diagram name="Página-1" id="qW1B6LLO3FGMlLUZLTgl">
+    <mxGraphModel dx="4189" dy="2653" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-4" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=80;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-1159" width="840" height="619" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-5" value="&lt;div&gt;/hadoop&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Georgia;container=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-1159" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-6" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="20" y="-1119" width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-7" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=130;tabHeight=30;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-6">
+          <mxGeometry width="190" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-8" value="/hadoop-version" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Georgia;container=1;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-6">
+          <mxGeometry width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=130;exitDy=30;exitPerimeter=0;" edge="1" parent="1" source="AYAZBs8xfu_waj6WBCL_-37" target="AYAZBs8xfu_waj6WBCL_-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="115" y="-949" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-10" value="&lt;div&gt;Symbolic Link&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AYAZBs8xfu_waj6WBCL_-9">
+          <mxGeometry x="-0.3746" y="1" relative="1" as="geometry">
+            <mxPoint x="-3" y="-46" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-35" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="20" y="-979" width="190" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-36" value="" style="group" vertex="1" connectable="0" parent="AYAZBs8xfu_waj6WBCL_-35">
+          <mxGeometry width="190" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-37" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=70;tabHeight=30;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-36">
+          <mxGeometry width="190" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-38" value="/hadoop" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Georgia;container=1;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-36">
+          <mxGeometry x="-5" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-42" value="" style="group" vertex="1" connectable="0" parent="AYAZBs8xfu_waj6WBCL_-35">
+          <mxGeometry x="10" y="40" width="170" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-43" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=100;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-42">
+          <mxGeometry width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-44" value="/etc/hadoop" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Georgia;container=1;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-42">
+          <mxGeometry width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-45" value="core-site.xml" style="html=1;whiteSpace=wrap;fontFamily=Georgia;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-42">
+          <mxGeometry x="10" y="40" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-46" value="&lt;div&gt;hdfs-site.xml&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontFamily=Georgia;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-42">
+          <mxGeometry x="10" y="90" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-113" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="230" y="-1120" width="190" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-114" value="" style="group" vertex="1" connectable="0" parent="AYAZBs8xfu_waj6WBCL_-113">
+          <mxGeometry width="190" height="590" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-115" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=110;tabHeight=30;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-114">
+          <mxGeometry width="190" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-116" value="/hadoop-hera" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Georgia;container=1;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-114">
+          <mxGeometry width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-117" value="" style="group" vertex="1" connectable="0" parent="AYAZBs8xfu_waj6WBCL_-114">
+          <mxGeometry x="10" y="289" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-118" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=60;tabHeight=30;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-117">
+          <mxGeometry width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-119" value="/logs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Georgia;container=1;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-117">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-120" value="" style="group" vertex="1" connectable="0" parent="AYAZBs8xfu_waj6WBCL_-114">
+          <mxGeometry x="10" y="379" width="180" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-121" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=50;tabHeight=30;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-120">
+          <mxGeometry width="170" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-122" value="/dfs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Georgia;container=1;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-120">
+          <mxGeometry width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-123" value="" style="group" vertex="1" connectable="0" parent="AYAZBs8xfu_waj6WBCL_-120">
+          <mxGeometry x="10" y="40" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-124" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=90;tabHeight=30;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-123">
+          <mxGeometry width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-125" value="/namenode" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Georgia;container=1;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-123">
+          <mxGeometry width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-126" value="" style="group" vertex="1" connectable="0" parent="AYAZBs8xfu_waj6WBCL_-120">
+          <mxGeometry x="10" y="110" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-127" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=90;tabHeight=30;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-126">
+          <mxGeometry width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-128" value="/datanode" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Georgia;container=1;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-126">
+          <mxGeometry width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-129" value="" style="group" vertex="1" connectable="0" parent="AYAZBs8xfu_waj6WBCL_-113">
+          <mxGeometry x="10" y="40" width="170" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-130" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=100;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-129">
+          <mxGeometry width="170" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-131" value="/etc/hadoop" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Georgia;container=1;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-129">
+          <mxGeometry width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-132" value="core-site.xml" style="html=1;whiteSpace=wrap;fontFamily=Georgia;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-129">
+          <mxGeometry x="10" y="40" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-133" value="&lt;div&gt;hdfs-site.xml&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontFamily=Georgia;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-129">
+          <mxGeometry x="10" y="90" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-134" value="hadoop-env.sh" style="html=1;whiteSpace=wrap;fontFamily=Georgia;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-129">
+          <mxGeometry x="10" y="139" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-135" value="workers" style="html=1;whiteSpace=wrap;fontFamily=Georgia;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-129">
+          <mxGeometry x="10" y="189" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-136" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=110;tabHeight=30;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-1119" width="190" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-137" value="/hadoop-zeus" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Georgia;container=1;" vertex="1" parent="1">
+          <mxGeometry x="440" y="-1119" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-138" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="450" y="-1079" width="170" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-139" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=100;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-138">
+          <mxGeometry width="170" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-140" value="/etc/hadoop" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Georgia;container=1;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-138">
+          <mxGeometry width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-141" value="core-site.xml" style="html=1;whiteSpace=wrap;fontFamily=Georgia;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-138">
+          <mxGeometry x="10" y="40" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-142" value="&lt;div&gt;hdfs-site.xml&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontFamily=Georgia;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-138">
+          <mxGeometry x="10" y="90" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-143" value="hadoop-env.sh" style="html=1;whiteSpace=wrap;fontFamily=Georgia;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-138">
+          <mxGeometry x="10" y="139" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-144" value="" style="group" vertex="1" connectable="0" parent="AYAZBs8xfu_waj6WBCL_-138">
+          <mxGeometry y="200" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-145" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=60;tabHeight=30;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-144">
+          <mxGeometry width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-146" value="/logs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Georgia;container=1;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-144">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-92" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=130;tabHeight=30;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="650" y="-1120" width="190" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-93" value="/hadoop-atenas" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Georgia;container=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="-1120" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-106" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="660" y="-1080" width="170" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-107" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=100;tabHeight=29;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-106">
+          <mxGeometry width="170" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-108" value="/etc/hadoop" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Georgia;container=1;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-106">
+          <mxGeometry width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-109" value="core-site.xml" style="html=1;whiteSpace=wrap;fontFamily=Georgia;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-106">
+          <mxGeometry x="10" y="40" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-110" value="&lt;div&gt;hdfs-site.xml&lt;/div&gt;" style="html=1;whiteSpace=wrap;fontFamily=Georgia;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-106">
+          <mxGeometry x="10" y="90" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-111" value="hadoop-env.sh" style="html=1;whiteSpace=wrap;fontFamily=Georgia;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-106">
+          <mxGeometry x="10" y="139" width="150" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-94" value="" style="group" vertex="1" connectable="0" parent="AYAZBs8xfu_waj6WBCL_-106">
+          <mxGeometry y="200" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-95" value="" style="shape=folder;fontStyle=1;spacingTop=10;tabWidth=60;tabHeight=30;tabPosition=left;html=1;whiteSpace=wrap;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-94">
+          <mxGeometry width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="AYAZBs8xfu_waj6WBCL_-96" value="/logs" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontFamily=Georgia;container=1;" vertex="1" parent="AYAZBs8xfu_waj6WBCL_-94">
+          <mxGeometry width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
