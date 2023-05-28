@@ -17,6 +17,39 @@
 
 ## Arquitetura
 
+<p align="justify">A arquitetura atualmente (28/05/2023) possui três máquinas e é focada em distribuir <a href="#tecnologias-utilizadas">sete serviços</a>, entretanto diversos outros software (OpenMP, MPI, Proxmox (<b>TODO</b>) e Apache Cassandra(<b>TODO</b>)) estão disponíveis para utilização no cluster de máquinas. As configurações relativas aos servidores são:</p>
+
+- `zeus`: Xeon X7460 - 24 cores, 125G de memória e \~572G de armazenamento
+- `atenas`: Xeon E5620 - 16 cores, 23G de memória e \~98G de armazenamento
+- `zeus`: Xeon E5504 - 8 cores, 11G de memória e \~815G de armazenamento
+
+<p align="justify">Os serviços em funcionamento seguem a mesma estrutura de pastas (genérica) presente nesse repositório. Para facilitar a visualização os seguintes diagramas foram confeccionados:</p>
+
+<details open>
+<summary><h3 align="center">Diagrama geral de pastas</h3></summary>
+    <img src="./diagramas/diagrama_geral_cluser.png" height="auto">
+</details>
+
+<details open>
+<summary><h3 align="center">Diagrama de pastas do Spark</h3></summary>
+    <img src="./diagramas/diagrama_spark.png" height="auto">
+</details>
+
+<details open>
+<summary><h3 align="center">Diagrama de pastas do Hadoop</h3></summary>
+    <img src="./diagramas/diagrama_hadoop.png" height="auto">
+</details>
+
+<details open>
+<summary><h3 align="center">Diagrama de pastas do Kafka</h3></summary>
+    <img src="./diagramas/diagrama_kafka.png" height="auto">
+</details>
+
+<details>
+<summary><h3 align="center">Diagrama completo de pastas</h3></summary>
+    <img src="./diagramas/diagrama_completo_cluser.png" height="auto">
+</details>
+
 ---
 
 ## Tecnologias Utilizadas
@@ -87,6 +120,12 @@
 |Kafka|zeus, atenas, hera|9092|
 |Zookeper|atenas|2181|
 |Elasticsearch|atenas|9200|
+
+### Conectando via SSH
+
+```sh
+ssh -p 13508 aMATRICULA@lca.unb.br
+```
 
 ---
 
