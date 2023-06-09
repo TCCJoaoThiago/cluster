@@ -1,0 +1,11 @@
+[Unit]
+
+Description=Prometheus
+After=syslog.target network.target
+
+[Service]
+
+ExecStart=/pasta/home/prometheus/prometheus-service/prometheus --web.listen-address=:13477 --config.file=/pasta/home/prometheus/prometheus-service/prometheus.yml
+
+[Install]
+WantedBy=multi-user.target

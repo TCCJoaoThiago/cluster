@@ -1,0 +1,11 @@
+[Unit]
+
+Description=Prometheus Node exporter
+After=syslog.target network.target
+
+[Service]
+
+ExecStart=/pasta/home/prometheus/node_exporter/node_exporter
+
+[Install]
+WantedBy=multi-user.target
