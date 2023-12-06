@@ -17,11 +17,11 @@
 
 ## Arquitetura
 
-<p align="justify">A arquitetura atualmente (28/05/2023) possui três máquinas e é focada em distribuir <a href="#tecnologias-utilizadas">sete serviços</a>, entretanto diversos outros software (OpenMP, MPI, Proxmox (<b>TODO</b>) e Apache Cassandra(<b>TODO</b>)) estão disponíveis para utilização no cluster de máquinas. As configurações relativas aos servidores são:</p>
+<p align="justify">A arquitetura atualmente (28/05/2023) possui três máquinas e é focada em distribuir <a href="#tecnologias-utilizadas">sete serviços</a>, entretanto diversos outros software (OpenMP, MPI e Proxmox (<b>TODO</b>)) estão disponíveis para utilização no cluster de máquinas. As configurações relativas aos servidores são:</p>
 
 - `zeus`: Xeon X7460 - 24 cores, 125G de memória e \~572G de armazenamento
 - `atenas`: Xeon E5620 - 16 cores, 23G de memória e \~98G de armazenamento
-- `zeus`: Xeon E5504 - 8 cores, 11G de memória e \~815G de armazenamento
+- `hera`: Xeon E5504 - 8 cores, 11G de memória e \~815G de armazenamento
 
 <p align="justify">Os serviços em funcionamento seguem a mesma estrutura de pastas (genérica) presente nesse repositório. Para facilitar a visualização os seguintes diagramas foram confeccionados:</p>
 
